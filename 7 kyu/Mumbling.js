@@ -10,5 +10,5 @@
 // my solution
 
 function accum(s) {
-	return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
-}
+	return s.split('').map((x,i) => x.toUpperCase() + x.repeat(i).toLowerCase()).join('-')
+  }
